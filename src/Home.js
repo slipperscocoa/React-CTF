@@ -28,7 +28,6 @@ class HomePageApp extends React.Component {
             </Row>
           </Container>
         </header>
-        {/* <body> */}
           <br />
           <br />
           <br />
@@ -92,7 +91,7 @@ class HomePageApp extends React.Component {
               <Col className='text-center'>
                 <Card
                   className='mx-auto'
-                  style={{ width: '20rem', height: '36rem' }}
+                  style={{ width: '20rem', height: '36rem', backgroundColor: '#f8f3ed' }}
                 >
                   <Card.Img variant='top' src={DancingMen} />
                   <Card.Body>
@@ -111,7 +110,7 @@ class HomePageApp extends React.Component {
               <Col className='text-center'>
                 <Card
                   className='mx-auto'
-                  style={{ width: '20rem', height: '36rem' }}
+                  style={{ width: '20rem', height: '36rem', backgroundColor: '#f8f3ed' }}
                 >
                   <Card.Img variant='top' src={Bohemia} />
                   <Card.Body>
@@ -131,7 +130,7 @@ class HomePageApp extends React.Component {
               <Col className='text-center'>
                 <Card
                   className='mx-auto'
-                  style={{ width: '20rem', height: '36rem' }}
+                  style={{ width: '20rem', height: '36rem', backgroundColor: '#f8f3ed' }}
                 >
                   <Card.Img
                     style={{ width: '300px', height: '350px' }}
@@ -157,7 +156,6 @@ class HomePageApp extends React.Component {
             <br />
             <br />
           </Container>
-        {/* </body> */}
       </div>
     )
   }

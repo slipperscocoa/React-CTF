@@ -1,26 +1,14 @@
 import React from 'react';
 import './App.css';
-// import ReactDOM from 'react-dom/client';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePageApp from './Home';
 import FlagOne from './Flag1';
 import FlagTwo from './Flag2';
-import FlagThree from './Flag3'; 
+import FlagThree from './Flag3';
+import AnswersApp from './Answers';  
 
 
-// export default function App() {
-//   return (
-//     <div className="App">
-//       <HomePageApp />
-//     </div>
-
-//   );
-// }
-
- 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<App />);
 
 class App extends React.Component {
   render() {
@@ -31,6 +19,7 @@ class App extends React.Component {
           <Route path="/flagOne" element={<FlagOne />} />
           <Route path="/flagTwo" element={<FlagTwo />} />
           <Route path="/flagThree" element={<FlagThree />} />
+          <Route path="/answers" element={<AnswersApp />} />
         </Routes>
       </Router>
     )

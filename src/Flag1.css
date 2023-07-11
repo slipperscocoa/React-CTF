@@ -1,0 +1,42 @@
+.FlagOne {
+    position: relative;
+    min-height: 100vh;
+}
+
+.FlagOne::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("./Images/Manuscript-the-dancing-men-p01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.links {
+    color: #4d4d4d; 
+    font-size: xx-large; 
+}
+
+.explanation {
+    color: #8ac7db; 
+    text-align: center;
+}
+
+.cipher {
+    background-color:  #f8f3ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    margin: 10%;
+    font-size: large; 
+}

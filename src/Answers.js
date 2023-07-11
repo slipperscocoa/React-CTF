@@ -2,15 +2,15 @@ import React from 'react';
 
 
 
-class FlagTwoApp extends React.Component {
+class AnswersApp extends React.Component {
     render() {
         return (
             <div>
-              <h1>Testing Flag Two</h1>
+              <h1>Testing Answers</h1>
             </div>
         );
     }
 }
 
 
-export default FlagTwoApp;
+export default AnswersApp;

@@ -155,6 +155,30 @@ class HomePageApp extends React.Component {
             <br />
             <br />
             <br />
+            <Row>
+              <Col>
+              <Card
+                  className='mx-auto'
+                  style={{ width: '20rem', height: '36rem', backgroundColor: '#f8f3ed' }}
+                >
+                  <Card.Img
+                    style={{ width: '300px', height: '350px' }}
+                    variant='top'
+                    src={Sarasate}
+                  />
+                  <Card.Body>
+                    <Card.Title>Flag 4</Card.Title>
+                    <Card.Text>
+                      “I observe that there is a good deal of German music on
+                      the programme, which is rather more to my taste than
+                      Italian or French. It is introspective, and I want to
+                      introspect.”
+                    </Card.Text>
+                    <Link to="/flagFour"><Button variant='primary'>Go to flag</Button></Link>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
           </Container>
       </div>
     )

@@ -6,6 +6,7 @@ import HomePageApp from './Home';
 import FlagOne from './Flag1';
 import FlagTwo from './Flag2';
 import FlagThree from './Flag3';
+import FlagFourApp from './Flag4';
 import AnswersApp from './Answers';  
 
 
@@ -19,6 +20,7 @@ class App extends React.Component {
           <Route path="/flagOne" element={<FlagOne />} />
           <Route path="/flagTwo" element={<FlagTwo />} />
           <Route path="/flagThree" element={<FlagThree />} />
+          <Route path="/flagFour" element={<FlagFourApp />} />
           <Route path="/answers" element={<AnswersApp />} />
         </Routes>
       </Router>

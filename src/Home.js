@@ -3,8 +3,8 @@ import './App.css'
 import DancingMen from './Images/dancing_men.jpg'
 import Bohemia from './Images/bohemia.jpg'
 import Sarasate from './Images/sarasate.jpg'
-
-
+import Yellow from './Images/yellow_face.jpg'
+import Valley from './Images/valley_of_fear.jpg'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -162,22 +162,39 @@ class HomePageApp extends React.Component {
                   style={{ width: '20rem', height: '36rem', backgroundColor: '#f8f3ed' }}
                 >
                   <Card.Img
-                    style={{ width: '300px', height: '350px' }}
                     variant='top'
-                    src={Sarasate}
+                    src={Yellow}
                   />
                   <Card.Body>
                     <Card.Title>Flag 4</Card.Title>
                     <Card.Text>
-                      “I observe that there is a good deal of German music on
-                      the programme, which is rather more to my taste than
-                      Italian or French. It is introspective, and I want to
-                      introspect.”
+                      “Any truth is better than indefinite doubt.”
                     </Card.Text>
                     <Link to="/flagFour"><Button variant='primary'>Go to flag</Button></Link>
                   </Card.Body>
                 </Card>
               </Col>
+              <Col>
+              <Card
+                  className='mx-auto'
+                  style={{ width: '20rem', height: '36rem', backgroundColor: '#f8f3ed' }}
+                >
+                  <Card.Img
+                    variant='top'
+                    src={Valley}
+                  />
+                  <Card.Body>
+                    <Card.Title>Flag 5</Card.Title>
+                    <Card.Text>
+                      “Mediocrity knows nothing higher than itself; but talent instantly recognizes genius.”
+                    </Card.Text>
+                    <Link to="/flagFive"><Button variant='primary'>Go to flag</Button></Link>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+            <Row>
+              <h1>This just simulates a footer for now</h1>
             </Row>
           </Container>
       </div>

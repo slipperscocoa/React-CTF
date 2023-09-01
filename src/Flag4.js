@@ -29,12 +29,19 @@ class FlagFourApp extends React.Component {
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
           <Row className='content'>
-            <Col><h1>Even the renowned Sherlock Holmes erred, although you will be relieved to know it happened only once. </h1></Col>
+            <Col><br/></Col>
+            <Col lg={5}><Image src={require('./Flag_Files/jeremy_brett.jpg')} style={{ width: '100%', height: '100%'}} rounded/></Col>
+            <Col lg={5}>
+                <h1>Even the renowned Sherlock Holmes erred, although you will be relieved to know it happened only once. </h1>
+                <br/>
+                <br/>
+                <h1>He was a prideful man; thus, the details of his mistake are guarded carefully. Where did he acquire such ego? Perhaps it originated from his famous <b className="color-clue">French</b> relatives? In any case, his amour-propre wasn't exactly misplaced.</h1>
+                <br/>
+                <br/>
+                <h1><a href={require("./Flag_Files/jeremy_brett.jpg")} download="flag4.jpg" className='link-color'>Download File</a></h1>
+            </Col>
+            <Col><br/></Col>
           </Row>
         </Container>
       </div>

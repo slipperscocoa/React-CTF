@@ -5,6 +5,7 @@ import Bohemia from './Images/bohemia.jpg'
 import Sarasate from './Images/sarasate.jpg'
 import Yellow from './Images/yellow_face.jpg'
 import Valley from './Images/valley_of_fear.jpg'
+import Speckled from './Images/speckled.jpg'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -189,6 +190,24 @@ class HomePageApp extends React.Component {
                       “Mediocrity knows nothing higher than itself; but talent instantly recognizes genius.”
                     </Card.Text>
                     <Link to="/flagFive"><Button variant='primary'>Go to flag</Button></Link>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col>
+              <Card
+                  className='mx-auto'
+                  style={{ width: '20rem', height: '36rem', backgroundColor: '#f8f3ed' }}
+                >
+                  <Card.Img
+                    variant='top'
+                    src={Speckled}
+                  />
+                  <Card.Body>
+                    <Card.Title>Flag 6</Card.Title>
+                    <Card.Text>
+                    “I have heard, Mr. Holmes, that you can see deeply into the manifold wickedness of the human heart. You may advise me how to walk amid the dangers which encompass me.”
+                    </Card.Text>
+                    <Link to="/flagSix"><Button variant='primary'>Go to flag</Button></Link>
                   </Card.Body>
                 </Card>
               </Col>

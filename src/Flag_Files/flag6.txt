@@ -1,0 +1,28 @@
+import re
+
+print("'Violence does, in truth, recoil upon the violent, and the schemer falls into the pit which he digs for another.'"
+
+stoke = 3
+moran = "four"
+print(stoke + moran)
+
+text = "H3ll0 4nd w3lc0m3 t0 th3 l33t w0r1d 0f t3xt tr4nsl4t10n 1n th1s r3alm, 3v3ryth1ng 1s 3xp3r1m3nt4t10n W3 3xpl0r3 th3 un1qu3 cr34t1v1ty 0f 1337sp34k, wh3r3 l3tt3rs b3c0m3 numb3rs 4nd ch4r4ct3rs b3c0m3 5ymb0ls. 1ts 4ll 4b0ut 3xpr3ss10n 4nd 1nd1v1du4l1ty Th15 15 4n 4rt, 4nd 4rt 15 cr34t1v1ty Y0u c4n tr4n5f0rm 0rd1n4ry t3xt 1nt0 4 m3s5ag3 th4t5 4ll y0ur 0wn 3xpl0r3 th3 l3ngth5, th3 5tyl35, 4nd th3 m3an1ng5 TheSp3ckledB4nd y0u c4n cr34t3 w1th th15 d1st1nct1v3 4nd fun 4lt3rn4t1v3 4lph4b3t. Th3r3 4r3 n0 l1m1t5 1n 1337sp34k! S0 wh3th3r y0u'r3 cr34t1ng 4 crypt1c m3s5ag3, h4v1ng 4 l1ttl3 fun w1th t3xt, 0r j5t 3nj0y1ng th3 4uth3nt1c1ty 0f l33t sp34k, r3m3mb3r th4t th3r3 4r3 n0 rul3s, 0nly cr34t1v1ty. 3nj0y th3 j0urn3y 1nt0 th3 l33t 4nd l3t y0ur 1mpr3ss10n b3 y0ur 0wn. t1m3 70 3xpl0r3 th3 54ll 4nd b3auty 0f 1337sp34k 15 n0w. 3v3ry l3tt3r 1s 4 ch4nc3 t0 cr34t3 4n 4rtful 3xpr3ss10n. 1n th3 54m3 w4y 4n 4rt15t 4ppr3c14t35 4 c4nv45, w3 4ppr3c14t3 th3 1ntr1c4c135 0f th15 4lph4b3t. cr34t1v1ty 15 th3 k3y. Y0u c4n 3xp3r1m3nt w1th 4ll k1nd5 0f d1ff3r3nt 5tyl35 4nd 3ff3ct5. W1th 1337sp34k, y0u h4v3 th3 fr33dom t0 5h0w 0ff y0ur unl1m1t3d 1mag1nat10n. s0 g0 4h34d 4nd 3mb4rk 0n th15 j0urn3y 1nt0 th3 4lt3rn4t1v3 un1v3r53 0f l33t sp34k. W1th th3 5k1ll 0f y0ur f1ng3rt1p5, y0u c4n tr4n5f0rm t3xt 1nt0 4n 3xqu151t c0mb1n4t10n 0f l3tt3r5 4nd numb3rs, cr34t1ng 4 m3s5ag3 th4t 15 trul5 y0ur 0wn.3nj0y th3 53n54t10n 0f 3xpl0r1ng th3 4b5tr4ct w0rld 0f 1337sp34k. 1n th15 4r3n4, th3r3 15 n0 r3gul4r1ty, 0nly 1nd1v1du4l1ty. W1th th3 h3lp 0f l33t sp34k, y0u c4n 3xpr3ss y0urs3lf 1n un1qu3 4nd 3nt3rt41n1ng w4y5. th3r3 4r3 n0 l1m1t5 t0 th3 c0mb1n4t10n5 4nd p0ss1b1l1t13s. 3xp3r1m3nt w1th th3 l3ngth 0f th3 w0rd5, th3 u53 0f 5ymb0ls, 4nd th3 3xtr4 5p1c3 y0u c4n 4dd. 1t's 4ll 4b0ut th3 4rt 0f 3l3v4t1ng th3 51mpl3t 0f t3xt 1nt0 4 m3ssag3 0f y0ur 0wn.1n th3 3nd, 1t'5 4ll f0r fun 4nd 3xpl0r4t10n. 5o g3t cr34t1v3 w1th 1337sp34k 4nd l3t y0ur t3xt b3 th3 c4nv45 f0r y0ur unl1m1t3d 1d34s 4nd 1mag1nat10n."
+
+
+if culprit == 'leopard':
+    print("The leopard tried to kill Helen")
+elif culprit == 'baboon':
+    print("The baboon tried to kill Helen")
+elif culprit == 'poisen':
+    print("Someone tried to poisen Helen")
+else:
+    print("It looks like you'll need to investigate further to discover the plot!") 
+
+culprit = 'swamp adder'
+
+pattern = r'[A-Z][a-zA-Z0-9]{14}'
+
+matches = re.findall(pattern, text)
+
+for match in matches:
+    print("Great work! Here is your flag:", match)

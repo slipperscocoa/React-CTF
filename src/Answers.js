@@ -26,10 +26,7 @@ class AnswersApp extends React.Component {
 
   handleSubmit = event => {
     event.preventDefault()
-    // Write your logic to check the user's answer against the selected riddle
-    // You can use if statement or switch statement to determine correct/incorrect
 
-    // Example logic to check user's answer
     const { selectedFlag, userAnswer } = this.state
     if (
       selectedFlag === 'flag1' &&
@@ -38,7 +35,7 @@ class AnswersApp extends React.Component {
       alert('Correct answer for Flag 1!')
     } else if (
       selectedFlag === 'flag2' &&
-      userAnswer.toLowerCase() === 'answer2'
+      userAnswer.toLowerCase() === 'irene adler'
     ) {
       alert('Correct answer for Flag 2!')
     } else if (

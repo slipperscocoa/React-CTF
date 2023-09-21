@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/React-CTF/static/css/main.bc31d231.css",
+    "main.js": "/React-CTF/static/js/main.6eaf3b2b.js",
+    "static/js/787.83904489.chunk.js": "/React-CTF/static/js/787.83904489.chunk.js",
+    "static/media/jeremy_brett.jpg": "/React-CTF/static/media/jeremy_brett.46d3dd04f1f01e3f1a1a.jpg",
+    "static/media/Sketch1.jpg": "/React-CTF/static/media/Sketch1.a770248ce28489d547a8.jpg",
+    "static/media/Manuscript-the-dancing-men-p01.jpg": "/React-CTF/static/media/Manuscript-the-dancing-men-p01.ea05d9d29dedae2a9d15.jpg",
+    "static/media/Basil.jpg": "/React-CTF/static/media/Basil.919f256f04ef17950d6d.jpg",
+    "static/media/Sketch2.jpg": "/React-CTF/static/media/Sketch2.cc2a7b2cfc0360d0f06c.jpg",
+    "static/media/swamp-adder.jpg": "/React-CTF/static/media/swamp-adder.ac145cca67f110efb719.jpg",
+    "static/media/valley_of_fear.jpg": "/React-CTF/static/media/valley_of_fear.f68c7c998891fe0b728d.jpg",
+    "static/media/dancing_men.jpg": "/React-CTF/static/media/dancing_men.b1b9011b45d0ef66df5e.jpg",
+    "static/media/Sketch5.jpg": "/React-CTF/static/media/Sketch5.91e358e5ff96f6aa3e93.jpg",
+    "static/media/flag1.png": "/React-CTF/static/media/flag1.3c29c0b0502d5eada425.png",
+    "static/media/SH_logo.jpg": "/React-CTF/static/media/SH_logo.9376888f2a0834325ba2.jpg",
+    "static/media/speckled.jpg": "/React-CTF/static/media/speckled.0d280d584b231f5a0444.jpg",
+    "static/media/sarasate.jpg": "/React-CTF/static/media/sarasate.412fedd9d9ac4867c778.jpg",
+    "static/media/bohemia.jpg": "/React-CTF/static/media/bohemia.ba1f5da3cff78c2dba1b.jpg",
+    "static/media/yellow_face.jpg": "/React-CTF/static/media/yellow_face.1a617759233030e5e342.jpg",
+    "static/media/scowrers.png": "/React-CTF/static/media/scowrers.f689b733b4fe3def2837.png",
+    "static/media/Sketch4.jpg": "/React-CTF/static/media/Sketch4.66be526b01912ee436cb.jpg",
+    "static/media/flag6.txt": "/React-CTF/static/media/flag6.a33d6a980e93c897c554.txt",
+    "index.html": "/React-CTF/index.html",
+    "static/media/arrow-left-square-fill.svg": "/React-CTF/static/media/arrow-left-square-fill.7f2ae195e8e6ff9930ef.svg",
+    "static/media/arrow-right-square-fill.svg": "/React-CTF/static/media/arrow-right-square-fill.52d2124dc6f536cdba85.svg",
+    "main.bc31d231.css.map": "/React-CTF/static/css/main.bc31d231.css.map",
+    "main.6eaf3b2b.js.map": "/React-CTF/static/js/main.6eaf3b2b.js.map",
+    "787.83904489.chunk.js.map": "/React-CTF/static/js/787.83904489.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc31d231.css",
+    "static/js/main.6eaf3b2b.js"
+  ]
+}

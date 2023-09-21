@@ -1,0 +1,9 @@
+{
+  "short_name": "Sherlock Holmes CTF",
+  "name": "Sherlock Holmes CTF",
+  
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,28 @@
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(100%);
+}
+
+.carousel-control-next-icon {
+  right: -20px;
+  background-image: url('./arrow-right-square-fill.svg');
+}
+
+.carousel-control-prev-icon {
+  left: -20px;
+  background-image: url('./arrow-left-square-fill.svg');
+}
+
+.flagTwo {
+    background-color: #ffe6e6;
+}
+
+.size {
+    width: 550px;
+    height: 550px;
+}

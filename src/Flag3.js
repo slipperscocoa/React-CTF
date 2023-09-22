@@ -37,7 +37,7 @@ class FlagThreeApp extends React.Component {
                       <br/>
                       <br/>
                       <div>
-                        <ReactAudioPlayer src="/flag3.mp3"  controls/>
+                        <ReactAudioPlayer src={require('./Flag_Files/flag3.mp3')}  controls/>
                       </div>
                       <br/>
                       <br/>

@@ -68,7 +68,7 @@ class AnswersApp extends React.Component {
   render () {
     const { selectedFlag, userAnswer } = this.state
     return (
-      <div className='styling'>
+      <div className='Answers'>
         <Container fluid>
           <br />
           <br />

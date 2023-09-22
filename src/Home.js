@@ -149,7 +149,7 @@ class HomePageApp extends React.Component {
                 }}
               >
                 <Card.Img
-                  style={{ width: '300px', height: '350px' }}
+                  style={{ marginLeft: '10px', width: '300px', height: '350px' }}
                   variant='top'
                   src={Sarasate}
                 />

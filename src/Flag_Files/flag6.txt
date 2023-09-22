@@ -13,8 +13,8 @@ if culprit == 'leopard':
     print("The leopard tried to kill Helen")
 elif culprit == 'baboon':
     print("The baboon tried to kill Helen")
-elif culprit == 'poisen':
-    print("Someone tried to poisen Helen")
+elif culprit == 'poison':
+    print("Someone tried to poison Helen")
 else:
     print("It looks like you'll need to investigate further to discover the plot!") 
 

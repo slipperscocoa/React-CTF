@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-CTF/static/css/main.bc31d231.css",
-    "main.js": "/React-CTF/static/js/main.6eaf3b2b.js",
+    "main.js": "/React-CTF/static/js/main.cf08449a.js",
     "static/js/787.83904489.chunk.js": "/React-CTF/static/js/787.83904489.chunk.js",
     "static/media/jeremy_brett.jpg": "/React-CTF/static/media/jeremy_brett.46d3dd04f1f01e3f1a1a.jpg",
     "static/media/Sketch1.jpg": "/React-CTF/static/media/Sketch1.a770248ce28489d547a8.jpg",
@@ -25,11 +25,11 @@
     "static/media/arrow-left-square-fill.svg": "/React-CTF/static/media/arrow-left-square-fill.7f2ae195e8e6ff9930ef.svg",
     "static/media/arrow-right-square-fill.svg": "/React-CTF/static/media/arrow-right-square-fill.52d2124dc6f536cdba85.svg",
     "main.bc31d231.css.map": "/React-CTF/static/css/main.bc31d231.css.map",
-    "main.6eaf3b2b.js.map": "/React-CTF/static/js/main.6eaf3b2b.js.map",
+    "main.cf08449a.js.map": "/React-CTF/static/js/main.cf08449a.js.map",
     "787.83904489.chunk.js.map": "/React-CTF/static/js/787.83904489.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc31d231.css",
-    "static/js/main.6eaf3b2b.js"
+    "static/js/main.cf08449a.js"
   ]
 }

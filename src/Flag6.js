@@ -41,7 +41,7 @@ class FlagSixApp extends React.Component {
               <h1>The flag is contained somewhere in the file below. Before you can uncover it, you need to debug the code. The picture on the right will give you a clue as to the language.</h1>
               <br/>
               <br/>
-              <h2><a href={require("./Flag_Files/flag6.txt")}>Download File</a></h2>
+              <h2><a href={require("./Flag_Files/flag6.txt")} download="./Flag_Files/flag6.txt">Download File</a></h2>
             </Col>
             <Col lg={1}>
               <br/>

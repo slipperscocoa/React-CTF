@@ -16,7 +16,7 @@ import AnswersApp from './Answers';
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename="/React-CTF">
         <Routes>
           <Route path="/" element={<HomePageApp />} />
           <Route path="/flagOne" element={<FlagOne />} />

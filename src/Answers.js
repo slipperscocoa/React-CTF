@@ -55,7 +55,7 @@ class AnswersApp extends React.Component {
       alert('Correct answer for Flag 5!')
     } else if (
       selectedFlag === 'flag6' &&
-      userAnswer.toLowerCase() === 'TheSp3ckledB4nd'
+      userAnswer === 'TheSp3ckledB4nd'
     ) {
       alert('Correct answer for Flag 6!')
     } else {
